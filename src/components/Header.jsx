@@ -33,10 +33,17 @@ const Header = () => {
             <li>
                 <a className='hover:text-blue-500' href="#menu">Menu</a>
                 </li>
-            <li>
-                <a className='hover:text-blue-500' href="#about"></a>About</li>
-            <li>
-                <a className='hover:text-blue-500' href="#contact"></a>Contact</li>
+                        <li>
+              <a className="hover:text-blue-500" href="#about">
+                About
+              </a>
+            </li>
+
+           <li>
+              <a className="hover:text-blue-500" href="#contact">
+                Contact
+              </a>
+            </li>
         </ul>
     </nav>
     {!isOpen && (
